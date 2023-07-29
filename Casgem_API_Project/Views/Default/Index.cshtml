@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = null;
+}
+
+
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+-->
+<!doctype html>
+<html lang="en">
+@await Component.InvokeAsync("_HeadPartial")
+<body>
+
+    <!--header-->
+    @await Component.InvokeAsync("_HeaderPartial")
+    <!--/header-->
+    @await Component.InvokeAsync("_SectionPartial")
+    @await Component.InvokeAsync("_Section2Partial")
+ 
+
+    @await Component.InvokeAsync("_ScriptPartial")
+
+</body>
+
+</html>
